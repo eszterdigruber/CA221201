@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Szamrendszer1();
+        }
+
+        private static void Szamrendszer1()
+        {
+            
         }
     }
 }
