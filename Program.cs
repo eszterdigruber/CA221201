@@ -19,7 +19,7 @@
             for (int i = 0; i < Alap; i++)
             {
                 LehetsegesKaraktereTMB[i] = Alap - i - 1;
-                Console.WriteLine($"{LehetsegesKaraktereTMB[i]}");
+                Console.Write($"{LehetsegesKaraktereTMB[i]} ");
             }
             int db = 0;
             for (int i = 0; i < LehetsegesKaraktereTMB.Length; i++)
@@ -40,11 +40,11 @@
                 {
                     Ertek += int.Parse(BekertTMB[i].ToString()) * Math.Pow(Alap, Hossz - 1 - i);
                 }
-                Console.WriteLine($"A szám tizes számrendszerben: {Ertek}");
+                Console.WriteLine($"\nA szám tizes számrendszerben: {Ertek}");
             }
             else
             {
-                Console.WriteLine("Hibás karakterlánc");
+                Console.WriteLine("\nHibás karakterlánc");
             }
         }
     }
